@@ -1,0 +1,15 @@
+h4{
+    color: rgb(170, 167, 167);
+}
+#secondslide{
+    display: flex;
+    align-self: auto;
+
+
+}
+body{
+    background-image: url("/images/back2.JPG");
+}
+h1{
+    color: whitesmoke;
+}
