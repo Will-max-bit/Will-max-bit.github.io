@@ -8,8 +8,15 @@ h4{
 
 }
 body{
-    background-image: url("/images/back2.JPG");
+    background-image: url("/images/back_uncomment.JPG");
 }
-h1{
+h1, h3{
     color: whitesmoke;
+    background-color: black;
+    border-radius: 30px;
+
+}
+#hobbies{
+    background-color: black;
+    border-radius: 30px;
 }

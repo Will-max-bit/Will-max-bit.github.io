@@ -44,7 +44,7 @@
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="container flex-nowrap">
       <div class="row row-cols-4">
         <div class="card my-1" style="width: 25rem;">
           <img src="./images/profile1.jpg" class="card-img-top" alt="...">
@@ -55,17 +55,20 @@
               data drives innovation, the user experience and company prosperity. Throughout my adult life, I have
               been a
               fixer of sorts, I enjoy finding new and efficient ways to solve problems.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Contact me
+            </button>
           </div>
         </div>
-        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="william-hermann-432bb846"><a class="LI-simple-link" href='https://www.linkedin.com/in/william-hermann-432bb846?trk=profile-badge'>William Hermann</a></div>
-        <iframe
+        <div class="LI-profile-badge my-2" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical"
+          data-theme="light" data-vanity="william-hermann-432bb846"><a class="LI-simple-link"
+            href='https://www.linkedin.com/in/william-hermann-432bb846?trk=profile-badge'>William Hermann</a>
+        <iframe class="mx-2 my-2"
           src="https://tylerlh.github.com/github-latest-commits-widget/?username=Will-max-bit&repo=Climb-up&limit=LIMIT"
-          allowtransparency="true" frameborder="0" class="mt-1" scrolling="yes" width="600px" height="252px"></iframe>
+          allowtransparency="true" frameborder="0" class="mt-1" scrolling="yes" width="600px" height="252px"></iframe></div>
       </div>
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Contact me
-      </button>
+
 
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -89,8 +92,68 @@
         </div>
       </div>
     </div>
+
+    <h3 class="text-center"> Some Work I've done</h3>
+    <div class="container-fluid">
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <div class="card my-1" data-aos="fade-right" data-aos-duration="3000" style="width: 60rem;">
+            <img src="./images/poke(2).JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Searchable Pokedex</h5>
+              <p class="card-text">Check out the code through the button below</p>
+              <a target="_blank"
+                href="https://github.com/Will-max-bit/PDXCode-guild-assignments/tree/main/labs/django/pokeproject"
+                class="btn btn-success">Let's go</a>
+            </div>
+          </div>
+          <hr>
+          <div class="card my-1" data-aos="fade-left" data-aos-duration="3000" style="width: 60rem;">
+            <img src="/images/Blog.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CRUD Blog</h5>
+              <p class="card-text">Check out the code through the button below</p>
+              <a target="_blank"
+                href="https://github.com/Will-max-bit/PDXCode-guild-assignments/tree/main/labs/django/mysite"
+                class="btn btn-success">Let's go</a>
+            </div>
+          </div>
+
+          <div class="card my-1" data-aos="fade-right" data-aos-duration="3000" style="width: 60rem;">
+            <img src="/images/url.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">URL Shortner</h5>
+              <p class="card-text">Check out the code through the button below</p>
+              <a target="_blank"
+                href="https://github.com/Will-max-bit/PDXCode-guild-assignments/tree/main/labs/django/urlProject"
+                class="btn btn-success">Let's go</a>
+            </div>
+          </div>
+          <div>
+            <div class="card my-1" data-aos="fade-left" data-aos-duration="3000" style="width: 60rem;">
+              <img src="/images/cap1.JPG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Social media climbing app part 1</h5>
+                <p class="card-text">Check out the code through the button below</p>
+                <a target="_blank" href="https://github.com/Will-max-bit/Climb-up" class="btn btn-success">Let's go</a>
+              </div>
+            </div>
+
+            <div class="card my-1" data-aos="fade-right" data-aos-duration="3000" style="width: 60rem;">
+              <img src="/images/cap2.JPG" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Social media climbing app part 2</h5>
+                <p class="card-text">Check out the code through the button below</p>
+                <a target="_blank" href="https://github.com/Will-max-bit/Climb-up" class="btn btn-success">Let's go</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
-      <h4 class="text-center"> Hobbies, interests and background details</h4>
+      <h4 class="text-center" id="hobbies"> Hobbies, interests and background details</h4>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -135,63 +198,7 @@
   </div>
 
 
-  <h3 class="text-center"> Some Work I've done</h3>
-  <div class="container">
-    <div class="row justify-content-md-center">
-      <div class="col-md-auto">
-        <div class="card my-1" data-aos="fade-right" data-aos-duration="3000" style="width: 30rem;">
-          <img src="./images/poke(2).JPG" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Searchable Pokedex</h5>
-            <p class="card-text">Check out the code through the button below</p>
-            <a target="_blank"
-              href="https://github.com/Will-max-bit/PDXCode-guild-assignments/tree/main/labs/django/pokeproject"
-              class="btn btn-success">Let's go</a>
-          </div>
-        </div>
-        <hr>
-        <div class="card my-1" data-aos="fade-left" data-aos-duration="3000" style="width: 30rem;">
-          <img src="/images/Blog.JPG" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">CRUD Blog</h5>
-            <p class="card-text">Check out the code through the button below</p>
-            <a target="_blank"
-              href="https://github.com/Will-max-bit/PDXCode-guild-assignments/tree/main/labs/django/mysite"
-              class="btn btn-success">Let's go</a>
-          </div>
-        </div>
 
-        <div class="card my-1" data-aos="fade-right" data-aos-duration="3000" style="width: 30rem;">
-          <img src="/images/url.JPG" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">URL Shortner</h5>
-            <p class="card-text">Check out the code through the button below</p>
-            <a target="_blank"
-              href="https://github.com/Will-max-bit/PDXCode-guild-assignments/tree/main/labs/django/urlProject"
-              class="btn btn-success">Let's go</a>
-          </div>
-        </div>
-
-        <div class="card my-1" data-aos="fade-left" data-aos-duration="3000" style="width: 30rem;">
-          <img src="/images/cap1.JPG" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Social media climbing app part 1</h5>
-            <p class="card-text">Check out the code through the button below</p>
-            <a target="_blank" href="https://github.com/Will-max-bit/Climb-up" class="btn btn-success">Let's go</a>
-          </div>
-        </div>
-
-        <div class="card my-1" data-aos="fade-right" data-aos-duration="3000" style="width: 30rem;">
-          <img src="/images/cap2.JPG" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Social media climbing app part 2</h5>
-            <p class="card-text">Check out the code through the button below</p>
-            <a target="_blank" href="https://github.com/Will-max-bit/Climb-up" class="btn btn-success">Let's go</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <script>
