@@ -8,7 +8,7 @@ h4{
 
 }
 body{
-    background-image: url("/images/back_uncomment.JPG");
+    background-image: url("/images/back_uncomment.JPG") !important;
 }
 h1, h3{
     color: whitesmoke;
