@@ -24,9 +24,8 @@
 </head>
 
 <body>
-
   <div class="container-fluid main-body mt-10">
-    <div class="row justify-content-end text-center sticky-top" id="intro-box">
+    <div class="row justify-content-center text-center" id="intro-box">
       <div class="col-sm-4">
         <a href="#project-body">
           <p class="text-nav">Projects</p>
@@ -37,49 +36,44 @@
           <p class="text-nav">Links</p>
         </a>
       </div>
-      <div class="col-sm-4">
-        <a href="{% url 'landingpageapp:index'%}">
-          <p class="text-nav">Blog</p>
-        </a>
-      </div>
     </div>
-    <div class="row text-center fs-2">
-      <div class="col" id="intro-para">
-        <p>
-          I started my programming journey with a question,
-        <p>'couldn't I just design something to fit the issue I'm having'</p>
+    <div class="container-fluid">
+      <div class="row text-center fs-2">
+        <div class="col" id="intro-para">
+          <p>
+            I started my programming journey with a question,
+          <p>'couldn't I just design something to fit the issue I'm having'</p>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <img class="pass-img " src="./images/pass-img.jpg" alt="">
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="pass-img " src="./images/pass-img.jpg" alt="">
+        </div>
+        <div class="col-sm-8 align-self-center">
+          <p class="text-center fs-1">
+            My Approach
+          </p>
+          <p class="text-center text-wrap fs-3">All of my life I've searched for the most optimized way to accomplish a
+            given
+            task,
+            efficiency and ease of use has always been key to me, below is a demonstration of my attempt at that through
+            programming</p>
+          <div class="row text-center align-self-center">
+            <h4 id="passi" class="fs-1">My Passions</h4>
+            <div class="col align-self-center fs-3">
+              <ul>
+                <p>learning</p>
+                <p>Helping people</p>
+                <p>Climbing with friends</p>
+                <p>Creative solutions</p>
+                <p>Connecting information</p>
+                <p>Artistic expression</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr>
       </div>
-      <div id="passi" class="col text-center align-self-center">
-        <h4 class="fs-1">My Passions</h4>
-      </div>
-      <div class="col align-self-center fs-3">
-        <ul>
-          <li>learning</li>
-          <li>Helping people</li>
-          <li>Climbing with friends</li>
-          <li>Creative solutions</li>
-          <li>Connecting information</li>
-          <li>Artistic expression</li>
-        </ul>
-      </div>
-    </div>
-    <div class="row justify-content-end">
-      <div class="col-sm-6">
-        <p class="text-center fs-1">
-          My Approach
-        </p>
-      </div>
-      <div class="col-sm-6">
-        <p class="text-center fs-3">All of my life I've searched for the most optimized way to accomplish a given task,
-          efficiency and ease of use has always been key to me, below is a demonstration of my attempt at that through
-          programming</p>
-      </div>
-      <hr>
     </div>
   </div>
   <div class="container-fluid main-body mt-0" id="links">
@@ -88,31 +82,21 @@
         <h3 class="text-center site-links">Professional profiles</h3>
       </div>
     </div>
-    <div class="row align-items-center">
-      <div class="col align-self-center">
-        <p id="git-txt" class="text-center">GitHub</p>
-      </div>
-      <div class="col">
+    <div class="row justify-content-center">
+      <div class="col-sm-3">
         <div class="github-widget" data-username="Will-max-bit"></div>
       </div>
-    </div>
-    <div class="row flex-row-reverse">
-      <div class="col align-self-center">
-        <p id="linkd" class="text-center">LinkedIn</p>
-      </div>
-      <div class="col align-self-center">
-        <div style="margin: 0 auto !important;" class="badge-base LI-profile-badge" data-locale="en_US"
+      <div class="col-sm-3">
+        <div id="link-d" style="margin: 0 auto !important;" class="badge-base LI-profile-badge " data-locale="en_US"
           data-size="large" data-theme="dark" data-type="VERTICAL" data-vanity="william-hermann-432bb846"
           data-version="v1"></div>
       </div>
-    </div>
-    <div class="row align-items-center">
-      <div class="col align-self-center">
-        <p class="text-center">Twitter</p>
+      <div class="col-sm-3">
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/will_max_bit?ref_src=twsrc%5Etfw">Tweets
+          by will_max_bit</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
-      <div class="col-sm-4">
-        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/will_max_bit?ref_src=twsrc%5Etfw">Tweets by will_max_bit</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
+      <hr>
     </div>
   </div>
 
@@ -122,9 +106,7 @@
       <div class="col">
         <h2 class="text-center" id="climb">Climb_Up</h2>
         <p class="text-center">Built with Django and Vue.Js and Bootstrap</p>
-
         <img id='imgs' src="./images/cb1.jpg" class="img-fluid " alt="">
-
         <div class="row text-center">
           <a class="text-decoration-underline text-center" target="_blank" class="text-center"
             href="https://github.com/Will-max-bit/Climb-up">The Code</a>
@@ -181,11 +163,11 @@
               <div class="modal-body container">
                 <div class="row">
                   <div class="col">
-                    <a type="button" class="btn btn-outline-dark" href="mailto: dvw7juy7k@relay.firefox.com">Email
+                    <a type="button" class="btn btn-dark" href="mailto: dvw7juy7k@relay.firefox.com">Email
                       me</a>
                   </div>
                   <div class="col">
-                    <a type="button" class="btn btn-outline-dark" href="tel:541-887-0365">Call me</a>
+                    <a type="button" class="btn btn-dark" href="tel:541-887-0365">Call me</a>
                   </div>
                 </div>
               </div>

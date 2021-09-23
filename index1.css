@@ -19,6 +19,10 @@ h1, h3{
     background-color: black;
     border-radius: 30px;
 } */
+.site-links {
+  font-family: 'Cinzel', serif;
+  font-size: 3em;
+}
 #foot {
   background-color: #662c0a;
   height: 100px;
