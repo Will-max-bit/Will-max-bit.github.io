@@ -1,106 +1,88 @@
-h1 {
-    text-align: center;
-    background-color: moccasin;
-}
 
-.cardstack {
+img{
+  height: auto;
+  width: 60%;
+}
+.site-links {
+  font-family: 'Cinzel', serif;
+  font-size: 3em;
+}
+#foot {
+  background-color: #662c0a;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#git-txt {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 3em;
+}
+#linkd {
+  font-family: 'Assistant', sans-serif;
+  font-size: 3em;
+}
+.github-widget {
+  background: black;
+  border-color: black !important;
+  border-radius: 20px;
+
+}
+#intro-box {
+  background-color: #532306 !important;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 15px;
+  text-decoration: none !important;
+}
+a{
+      color: beige !important;
+    }
+#intro {
+    min-height: 200px;
     display: flex;
-    justify-content: space-around;
-    padding: 2px;
-    min-width: 200px;
-    flex-wrap: wrap;
-    
-}
-
-.card-text {
-    min-width: 100px;
-}
-
-.about-me {
-    box-sizing: border-box;
-    margin: 5px;
-    border: midnightblue solid 1px;
-    text-align: center;
-    background-color: moccasin;
-}
-
-.profile {
-    display: flex;
-    /* box-sizing: border-box; */
-    padding: 10px;
-    margin: 2px;
-
-}
-img {
-    max-width: 400px;
-    max-height: 400px;
-    border-radius: 30px;
-    /* padding: 5px; */
-    border: white solid 3px;
-    margin: 5px;
-}
-article {
-    padding: 5px;
-    font-family: 'Oswald', sans-serif;
-    background-color:moccasin;
-    text-align: center;
-    border-radius: 5%;
-
-}
-
-.bio_text {
-    display: flex;
-    max-width: 30%;
+    flex-direction: column;
     justify-content: center;
-    
+  }
+.main-body {
+    background-color: #8C3B0D;
+  }
+#project-body{
+    /* background-color: #7c350c; */
+    background: linear-gradient(#8C3B0D,#7c350c) ;
+    margin: 0 ;
 }
-
-.nav-item:hover {
-    font-size: large;
-    
-}
-
-/* .bottom {
+.pass-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+  }
+html {
+    scroll-behavior: smooth !important;
+  }
+#passi {
     display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-    align-content: center;
-} */
-
-.article {
-    min-width: 500px;
-    min-height: 500px;
-}
-section {
-    max-width: 300px;
-    max-height: 500px;
-    box-sizing: border-box;
-    padding: 10px;
-}
-h3 {
-    text-align: left;
-}
-
-.card-body {
-    min-width: 100px;
-}
-
-.card-img-top {
-    display: flex;
+    flex-direction: column;
     justify-content: center;
-    min-width: 100px;
-    padding: 0px;
-    size: 80%;
+    font-size: 1.5;
+  }
+#climb {
+    font-family: 'Rock Salt', cursive;
+  }
+#moog {
+    font-family: 'Dela Gothic One', cursive;
+  }
+#rose {
+    font-family: 'Great Vibes', cursive;
+  }
+#poke {
+    font-family: 'Satisfy', cursive;
 }
-
-.card {
-    background-color: moccasin;
-    padding: 5px;
-    padding-right: 12px;
-}
-
-body {
-    background-image: url(/images/background.jpg);
-    background-size: contain;
-}
-
+#intro-para {
+    font-family: 'Bangers', cursive;
+    font-size: 1em;
+  }
+#imgs {
+    border-radius: 8px;
+    box-shadow: 0 0 18px black;
+  }
