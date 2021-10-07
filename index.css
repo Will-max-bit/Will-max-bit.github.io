@@ -86,3 +86,10 @@ html {
     border-radius: 8px;
     box-shadow: 0 0 18px black;
   }
+  .twitter-timeline{
+    max-height: 400px;
+    max-width: auto;
+  }
+  .col-sm-3{
+    margin: 0 auto;
+  }
