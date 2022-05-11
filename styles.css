@@ -6,7 +6,7 @@
 .text,
 p {
     color: var(--text-color);
-    font-size: 1em;
+    font-size: 2rem;
     width: 25vw;
     text-align: center;
 
