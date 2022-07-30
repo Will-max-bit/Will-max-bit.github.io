@@ -113,7 +113,6 @@ header{
     
 }
 .links{
-    /* text-decoration: none; */
     color: var(--text-color);
     margin: auto;
     margin-right: 2px;
